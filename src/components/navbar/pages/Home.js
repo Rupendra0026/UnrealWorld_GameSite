@@ -5,7 +5,6 @@ import Explore from '../../explore/Explore'
 import Pagination from '../../Gamedata_api/Pagination'
 import Listofgames from '../../Gamedata_api/Listofgames'
 import Gamesetup from '../../Gamesetup/Gamesetup'
-import Footer from '../../Footer/Footer'
 // import { Pagination } from '@mui/material'
 
 const Home = () => {
@@ -15,7 +14,6 @@ const Home = () => {
         <Trail />
         <Explore/>
         <Listofgames/>
-        <Footer/>
         {/* <Gamesetup/> */}
     </div>
     
