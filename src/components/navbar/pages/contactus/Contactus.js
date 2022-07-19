@@ -9,7 +9,6 @@ const Contactus = () => {
     <MainNav/>
     <div className="maincontact">
       <div className="contact">
-        
         <div className="contactinputs">
         <h1 className='contacthead'>Lets get connected!!</h1>
           <input type="text" className='contactin' placeholder='Enter First Name' required/>

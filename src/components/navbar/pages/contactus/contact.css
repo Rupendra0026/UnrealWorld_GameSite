@@ -53,3 +53,18 @@ textarea{
     margin-top: 1rem;
     background-image: radial-gradient( circle farthest-corner at 97.4% 91.4%,  rgba(204,0,107,1) 0%, rgba(0,0,0,1) 82.4% );
 }
+@media screen and (max-width:968px){
+    .contactinputs{
+        width: 20rem;
+        height: 40rem;
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width:650px){
+    .contactinputs{
+        font-size: 1rem;
+        width: 20rem;
+        height: 35rem;
+        margin-left: 0%;
+    }
+}

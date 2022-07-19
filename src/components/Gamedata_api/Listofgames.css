@@ -129,6 +129,11 @@
             
         }
     }
+@media only screen and (max-width:340){
+    .maingamedesign{
+        margin-left: -5rem;
+    }
+}
 .details{
     margin-top: 1rem;
 }
