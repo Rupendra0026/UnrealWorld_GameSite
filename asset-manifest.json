@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UnrealWorld_GameSite/static/css/main.bdd264bd.css",
+    "main.js": "/UnrealWorld_GameSite/static/js/main.5ecb2f76.js",
+    "index.html": "/UnrealWorld_GameSite/index.html",
+    "main.bdd264bd.css.map": "/UnrealWorld_GameSite/static/css/main.bdd264bd.css.map",
+    "main.5ecb2f76.js.map": "/UnrealWorld_GameSite/static/js/main.5ecb2f76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdd264bd.css",
+    "static/js/main.5ecb2f76.js"
+  ]
+}
