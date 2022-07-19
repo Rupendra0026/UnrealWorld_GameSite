@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.gamesetuphead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.gamesetupimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.gamesetupimg img{
+    width: 20rem;
+    height: 20rem;
+}

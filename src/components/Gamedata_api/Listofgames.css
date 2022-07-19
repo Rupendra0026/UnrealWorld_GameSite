@@ -1,0 +1,230 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.maingamedesign{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+.gamecard{
+    padding: 0rem 2rem 1rem 2rem;
+    border-radius: 4rem 0rem 4rem 0rem;
+    /* background-image: url("https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80"); */
+    width: 29rem;
+    height: 25rem;
+    border-bottom: 0.2rem solid skyblue;
+    border-right: 0.4rem solid skyblue;
+    border-left: 0.6rem solid pink;
+    border-top: 0.2rem solid pink;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.gamecard:hover{
+    box-shadow: -23px 33px 30px -11px rgba(250,65,250,0.53);
+}
+.gamehead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #B5FFFC; */
+}
+@media only  screen and (max-width:1300px){
+    .maingamedesign{
+        margin-left: 0%;
+        padding-top: 0rem;
+        display: grid;
+        padding-left: 0%;
+        padding-right: 0%;
+        gap: 0.5;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gamecard{
+        width: 20rem;
+        height: 27rem;
+        font-size: 1rem;
+    }
+}
+@media only  screen and (max-width:1000px){
+    .maingamedesign{
+        padding-top: 0rem;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2,1fr);
+        font-size: 0.5rem;
+        margin-left: 5rem;
+    }
+    .gamecard{
+        width: 20rem;
+        height: 28rem;
+        
+    }
+}
+@media only  screen and (max-width:720px){
+    .maingamedesign{
+        margin-left: -0.3rem;
+        padding-top: 0rem;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2,1fr);
+        font-size: 0.5rem;
+    }
+    .gamecard{
+        width: 20rem;
+        height: 27rem;
+        
+    }
+}
+@media only  screen and (max-width:680px){
+    .maingamedesign{
+        margin-left: -0.3rem;
+        padding-top: 0rem;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2,1fr);
+        font-size: 0.5rem;
+    }
+    .gamecard{
+        width: 19rem;
+        height: 27rem;
+        
+    }
+}
+@media only  screen and (max-width:550px){
+    .maingamedesign{
+        margin-left: 7.5rem;
+        /* margin-right: 2rem; */
+        padding-top: 0rem;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(1,1fr);
+        font-size: 0.5rem;
+    }}
+    @media only  screen and (max-width:420px){
+        .maingamedesign{
+            margin-left: 3rem;
+            padding-top: 0rem;
+            padding-left: 0%;
+            padding-right: 0%;
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: repeat(1,1fr);
+            font-size: 0.5rem;
+        }
+        .gamecard{
+            width: 18.5rem;
+            height: 27rem;
+            
+        }
+    }
+.details{
+    margin-top: 1rem;
+}
+.details span{
+    font-size: 2rem;
+}
+.gamehead{
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+}
+.searchbox h4{
+    position: relative;
+    margin-left: 5rem;
+}
+.searchbox input{
+   width: 50rem;
+   height: 3rem;
+   border-radius: 4rem;
+   /* border: none; */
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   box-shadow: -6px 13px 38px 0px rgba(0,0,0,0.75);
+   /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+    height: 4rem;
+}
+.searchbox input{
+    padding-left: 3rem;
+    padding-top: 0rem;
+    font-size: 1rem;
+}
+.totalpages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pagenumbers{
+    margin-top: 3rem;
+    display: flex;
+}
+.pagenumbers ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+.pagenumbers ul{
+    /* background-color: skyblue; */
+    border-radius: 3rem;
+}
+.pagenumbers ul li button{
+    width: 2rem;
+    height: 2rem;
+    background-color: skyblue;
+    border: solid 0.1rem pink;
+    font-size: 1rem;
+    border-radius: 8rem;
+    font-weight: 600;
+    box-shadow: -5px 1px 80px 10px rgba(250,65,250,0.53);
+}
+@media only screen and (max-width:650px){
+    .totalpages{
+        width: 3rem;
+        /* background-color: red; */
+    }
+    .pagenumbers{
+        margin-left: 25rem;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        
+    }
+}
+@media only screen and (max-width:660px){
+    .pagenumbers{
+        margin-left: 20rem;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        
+    }
+}
+@media only screen and (max-width:320px){
+    .pagenumbers{
+        margin-left: 18rem;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+}
